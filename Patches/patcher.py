@@ -31,5 +31,5 @@ if __name__ == '__main__':
     root_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),"..") #Get 1 DIR before DIR path of this python script
     patches_path = os.path.dirname(os.path.abspath(__file__))
 
-    print("Running" + os.path.basename(__file__) + "...")
+    print("Running " + os.path.basename(__file__) + "...")
     apply_patch()
